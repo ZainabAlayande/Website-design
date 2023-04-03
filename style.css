@@ -1,0 +1,867 @@
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+
+    .mainContainer{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .topNav{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        padding: 1% 2%;
+    }
+
+    .ptag{
+        width: 10%;
+        text-align: start;
+        font-size: larger;
+    }
+
+    .logo{
+        color: rgb(7, 7, 7);
+        text-shadow: 1px 1px 2px blue, 0 0 25px yellow, 0 0 5px darkblue;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .topNav nav{
+        display: flex;
+        height: 100%;
+        width: 80%;
+        justify-content: end;            
+    }
+
+    .topNav nav li{
+        list-style: none;
+        padding: 1% 2%;
+    }
+
+    .topNav nav li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: black;    
+    }
+
+    .getDemo{
+        border: 2px solid blue;
+        color: blue;
+        height: 100%;
+        text-align: center;
+        padding: 0% 1% 1%; 
+        font-size: 110%;  
+    }
+
+    .login{
+        display: flex;
+        text-align: center;
+        padding: 0% 1%;
+        justify-content: space-between;
+        width: 8%;
+        font-weight: 900;
+    }
+
+    .login img{
+        width: 40%;
+        height: 60%;
+        padding-top: 10%;
+    }
+
+    .firstContainer{
+        background-color: rgb(94, 79, 230);
+        padding: 1%;
+        width: 100%;
+        height: 30%;
+        clip-path: polygon();
+        /* clip-path: stroke-box; */
+        transform: rotate();
+    }
+    
+    .picture{
+        padding-left: 2%;
+        padding-bottom: 99%;
+    }
+
+    .All{
+        padding-bottom: 33%;
+    }
+
+  .Text{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: x-large;
+  }
+    
+button{
+    
+    text-align: center;
+    color: white;
+    justify-content: center;
+    background-color: black;
+    font-size: large;
+    
+    }
+
+    .List-Sell-Grow{
+        margin-top: 5%;
+        text-align: center;
+        font-size: 280%;
+        font-style: normal;
+        
+    }
+    
+    .coloured-container{
+        width: 100%;
+        margin: 0%;
+        padding: 1%;
+        background-color: antiquewhite;
+        padding: auto;
+    }
+
+    .do-something{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+        text-align: center;  
+        height: 100%;
+        width: 100%; 
+    }
+
+    .bigger-container{
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        margin-left: 23%;
+        column-gap: 20%;   
+        height: 100%;
+                   
+    }
+
+    .footer{
+        display: block;
+        background-color: black;
+        height: 35%;
+    }
+
+    .upper-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+
+    .lower-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .mainContainer{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .topNav{
+        height: 5%;
+        width: 70%;
+        display: flex;
+        padding: 1% 2%;
+    }
+
+    .ptag{
+        width: 60%;
+        text-align: right;
+    }
+
+    .logo{
+        color: rgb(7, 7, 7);
+        text-shadow: 1px 1px 2px blue, 0 0 25px yellow, 0 0 5px darkblue;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        margin-top: 7%;
+    }
+
+    .topNav nav{
+        display: flex;
+        justify-content: space-between;            
+    }
+
+    .topNav nav li{
+        list-style: none;
+        padding: 1% 3%;
+    }
+
+    .topNav nav li a{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 700;
+        color: black;    
+    }
+
+    .getDemo{
+        border: 2px solid blue;
+        color: blue;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    .demo{
+        padding-bottom: 2%;
+        padding-top: 2%;
+        
+    }
+
+    .login{
+        display: flex;
+        text-align: center;
+        padding: 0% 1%;
+        justify-content: space-between;
+        width: 8%;
+        font-size: 14px;
+       
+    }
+
+    .login img{
+        width: 40%;
+        height: 60%;
+        padding-top: 10%;
+    }
+
+    .ptag_login{
+        font-size: 1000;
+    }
+
+    .firstContainer{
+        background-color: rgb(94, 79, 230);
+        padding: 1%;
+        width: 100%;
+        height: 30%;
+        clip-path: polygon();
+        /* clip-path: stroke-box; */
+        transform: rotate();
+    }
+    
+    .picture{
+        padding-left: 2%;
+        padding-bottom: 99%;
+    }
+
+    .All{
+        padding-bottom: 33%;
+    }
+
+  .Text{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 2vh;
+  }
+    
+button{
+        text-align: center;
+        color: white;
+        justify-content: center;
+        background-color: black;
+    }
+
+    .List-Sell-Grow{
+        margin-top: 5%;
+        text-align: center;
+        font-size: larger;
+
+    }
+    
+    .coloured-container{
+        width: 100%;
+        margin: 0%;
+        padding: 1%;
+        background-color: antiquewhite;
+        padding: auto;
+    }
+
+    .do-something{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+        text-align: center;  
+        width: fit-content; 
+    }
+
+    
+    .bigger-container{
+        display: block;
+        margin-left: 12%;
+        justify-content: space-between;
+                    
+    }
+
+    .footer{
+        display: block;
+        background-color: black;
+        height: 35%;
+    }
+
+    .upper-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        font-size: small;
+    }
+
+    .lower-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        font-size: small;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .mainContainer{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .topNav{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        padding: 1% 2%;
+    }
+
+    .ptag{
+        text-align: start;
+        padding: auto;
+        justify-self: start;
+        padding: 0%;
+        margin: 1% 0% 1% 0%;
+    }
+    
+
+    .logo{
+        color: rgb(7, 7, 7);
+        text-shadow: 1px 1px 2px blue, 0 0 25px yellow, 0 0 5px darkblue;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0%;
+        margin: 1%;
+       
+    }
+
+    .topNav nav{
+        display: flex;
+        height: 100%;
+        width: 80%;
+        justify-content: end; 
+        margin: 0.5%;           
+    }
+
+    .topNav nav li{
+        list-style: none;
+        padding: 1% 2%;
+    }
+
+    .topNav nav li a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: black;    
+    }
+
+    .getDemo{
+        border: 2px solid blue;
+        color: blue;
+        font-size: 14px;
+        height: 100%;
+        text-align: center;
+        padding: 0% 1% 1% 1%; 
+        margin: -1%;  
+    }
+
+    .demo{
+        padding-bottom: 1%;
+    }
+
+    .login{
+        display: flex;
+        text-align: center;
+        padding: 0% 1%;
+        justify-content: space-between;
+        width: 8%;
+        font-weight: 700;
+    }
+
+    .login img{
+        width: 40%;
+        height: 60%;
+        padding-top: 10%;
+    }
+
+    .ptag_login{
+       
+        margin: 1%;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        
+    }
+
+    .firstContainer{
+        background-color: rgb(94, 79, 230);
+        padding: 1%;
+        width: 100%;
+        height: 50%;
+        clip-path: polygon();
+        /* clip-path: stroke-box; */
+        transform: rotate();
+    }
+    
+    .picture{
+        padding-left: 2%;
+        padding-bottom: 99%;
+    }
+
+    .All{
+        padding-bottom: 33%;
+    }
+
+  .Text{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    padding-top: 3%;
+    font-size: larger;
+  }
+    
+button{
+        text-align: center;
+        color: white;
+        justify-content: center;
+        background-color: black;
+    }
+
+    .List-Sell-Grow{
+        margin-top: 5%;
+        text-align: center;
+        font-size: xx-large;
+        font-style: normal;
+        
+    }
+    
+    .coloured-container{
+        width: 100%;
+        margin: 0%;
+        padding: 1%;
+        background-color: antiquewhite;
+        padding: auto;
+    }
+
+    .do-something{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 8%;
+        
+    }
+
+    .bigger-container{
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        column-gap: 2%;
+        row-gap: -15%;
+        font-size: medium; 
+        margin-left: 5%;  
+    }
+
+    .the_jpeg{
+        height: 70%;
+    }
+
+    .footer{
+        display: block;
+        background-color: black;
+        height: 40%;
+    }
+
+    .upper-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+
+    .lower-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .mainContainer{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .topNav{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        padding: 1% 2%;
+    }
+
+    .ptag{
+        width: 10%;
+        text-align: start;
+        
+    }
+
+    .logo{
+        color: rgb(7, 7, 7);
+        text-shadow: 1px 1px 2px blue, 0 0 25px yellow, 0 0 5px darkblue;
+        font-size: 180%;
+        font-weight: 700;
+        margin: 1%;
+    }
+
+    .topNav nav{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end; 
+        font-size: xx-large; 
+        margin-right: 8%;          
+    }
+
+    .topNav nav li{
+        list-style: none;
+        padding: 1% 1%;
+        font-size: xx-large;
+        margin-top: -1.5%;
+        margin-left: 1%;
+        margin-right: 1%;
+       
+    }
+
+    .topNav nav li a{
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 700;
+        color: black;  
+        justify-content: flex-end; 
+        width: 5%; 
+    }
+
+    .getDemo{
+        border: 2px solid blue;
+        color: blue;
+        font-size: 18px;
+        height: 100%;
+        text-align: center;
+        padding-top: 0.5%;  
+    }
+
+    .demo{
+        margin: 1%;
+    }
+
+    .login{
+        display: flex;
+        text-align: center;
+        padding: 0% 1%;
+        justify-content: space-between;
+        width: 8%;
+        font-weight: 700;
+    }
+
+    .login img{
+        width: 40%;
+        height: 60%;
+        padding-top: 10%;
+    }
+
+    .ptag_login{
+        font-size: 22px;
+        margin-top: 1%;
+    }
+
+    .firstContainer{
+        background-color: rgb(94, 79, 230);
+        padding: 1%;
+        width: 100%;
+        height: 50%;
+        clip-path: polygon();
+        /* clip-path: stroke-box; */
+        transform: rotate();
+    }
+    
+    .picture{
+        padding-left: 2%;
+        padding-bottom: 99%;
+    }
+
+    .All{
+        padding-bottom: 33%;
+    }
+
+  .Text{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 180%;
+    padding: 1%;
+  }
+    
+button{
+        text-align: center;
+        color: white;
+        justify-content: center;
+        background-color: black;
+        font-size: smaller;
+    }
+
+    .List-Sell-Grow{
+        margin-top: 5%;
+        text-align: center;
+        font-size: 250%;
+        font-style: normal;
+        
+    }
+    
+    .coloured-container{
+        width: 100%;
+        height: 55%;
+        padding: 1%;
+        background-color: antiquewhite;
+        
+    }
+
+    .do-something{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 8%;
+        text-align: center; 
+        font-weight: 500;
+        font-size: x-large;
+    }
+
+
+    .bigger-container{
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        margin-left: 2%;
+        column-gap: 20%;
+        font-size: larger;
+        
+                   
+    }
+
+    .footer{
+        display: block;
+        background-color: black;
+        height: 35%;
+        font-size: larger;
+    }
+
+    .upper-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+
+    .lower-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+    
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+
+    .mainContainer{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .topNav{
+        height: 5%;
+        width: 100%;
+        display: flex;
+        padding: 1% 2%;
+    }
+
+    .ptag{
+        width: 10%;
+        text-align: start;
+    }
+
+    .logo{
+        color: rgb(7, 7, 7);
+        text-shadow: 1px 1px 2px blue, 0 0 25px yellow, 0 0 5px darkblue;
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 0.5%;
+        margin: 1.5%;
+    }
+
+    .topNav nav{
+        display: flex;
+        height: 100%;
+        width: 80%;
+        justify-content: end;            
+    }
+
+    .topNav nav li{
+        list-style: none;
+        padding: 1% 2%;
+    }
+
+    .topNav nav li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: black;    
+    }
+
+    .getDemo{
+        border: 2px solid blue;
+        color: blue;
+        font-size: 20px;
+        height: 100%;
+        text-align: center;
+        padding: 0% 1%;   
+    }
+
+    .login{
+        display: flex;
+        text-align: center;
+        padding: 0% 1%;
+        justify-content: space-between;
+        width: 8%;
+        font-weight: 700;
+    }
+
+    .login img{
+        width: 40%;
+        height: 60%;
+        padding-top: 10%;
+    }
+
+    .firstContainer{
+        background-color: rgb(94, 79, 230);
+        padding: 3%;
+        width: 100%;
+        height: 45%;
+        clip-path: polygon();
+        /* clip-path: stroke-box; */
+        transform: rotate();
+    }
+    
+    .picture{
+        padding-left: 2%;
+        padding-bottom: 99%;
+    }
+
+    .All{
+        padding-bottom: 33%;
+    }
+
+  .Text{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 230%;
+  }
+    
+button{
+        text-align: center;
+        color: white;
+        justify-content: center;
+        background-color: black;
+        font-size: 70%;
+    }
+
+    .List-Sell-Grow{
+        margin-top: 5%;
+        text-align: center;
+        font-size: 100%;
+        font-style: normal;
+        
+    }
+    
+    .coloured-container{
+        width: 100%;
+        height: 60%;
+        margin: 0%;
+        padding: 1%;
+        background-color: antiquewhite;
+        padding: auto;
+    }
+
+    .do-something{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+        text-align: center;   
+        font-size: 150%;
+    }
+
+    .bigger-container{
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        margin-left: 10%;
+        column-gap: 20%;
+        font-size: larger;
+                   
+    }
+
+    .footer{
+        display: block;
+        background-color: black;
+        height: 35%;
+    }
+
+    .upper-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+
+    .lower-footer{
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+    
+}
